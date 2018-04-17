@@ -1,7 +1,7 @@
 {
     "version": 3,
     "sources": [
-        "../../../src/common/config/config.js"
+        "..\\..\\..\\src\\common\\config\\config.js"
     ],
     "names": [
         "module",
@@ -18,7 +18,7 @@
         "request_url"
     ],
     "mappings": "AAAA;AACAA,OAAOC,OAAP,GAAiB;AACfC,kBAAgB,KADD;AAEfC,UAAQ;AACNC,WAAO,oBADD,EACuB;AAC7BC,YAAQ,kCAFF,EAEsC;AAC5CC,YAAQ,EAHF,EAGM;AACZC,iBAAa,EAJP,EAIW;AACjBC,gBAAY,EALN,CAKS;AALT,GAFO;AASfC,WAAS;AACP;AACAL,WAAO,EAFA,EAEI;AACXM,YAAQ,EAHD,EAGK;AACZC,iBAAa;AAJN;AATM,CAAjB",
-    "file": "../../../src/common/config/config.js",
+    "file": "..\\..\\..\\src\\common\\config\\config.js",
     "sourcesContent": [
         "// default config\r\nmodule.exports = {\r\n  default_module: 'api',\r\n  weixin: {\r\n    appid: 'wxdf013adaa26c0d77', // 小程序 appid\r\n    secret: 'd0ec4d713de7319d029d6fb502c6c216', // 小程序密钥\r\n    mch_id: '', // 商户帐号ID\r\n    partner_key: '', // 微信支付密钥\r\n    notify_url: '' // 微信异步通知，例：https://www.nideshop.com/api/pay/notify\r\n  },\r\n  express: {\r\n    // 快递物流信息查询使用的是快递鸟接口，申请地址：http://www.kdniao.com/\r\n    appid: '', // 对应快递鸟用户后台 用户ID\r\n    appkey: '', // 对应快递鸟用户后台 API key\r\n    request_url: 'http://api.kdniao.cc/Ebusiness/EbusinessOrderHandle.aspx'\r\n  }\r\n};\r\n"
     ]

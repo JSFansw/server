@@ -1,7 +1,7 @@
 {
     "version": 3,
     "sources": [
-        "../../../src/common/config/config.production.js"
+        "..\\..\\..\\src\\common\\config\\config.production.js"
     ],
     "names": [
         "module",
@@ -9,7 +9,7 @@
         "workers"
     ],
     "mappings": "AAAA;AACAA,OAAOC,OAAP,GAAiB;AACfC,WAAS;AADM,CAAjB",
-    "file": "../../../src/common/config/config.production.js",
+    "file": "..\\..\\..\\src\\common\\config\\config.production.js",
     "sourcesContent": [
         "// production config, it will load in production enviroment\r\nmodule.exports = {\r\n  workers: 0\r\n};\r\n"
     ]

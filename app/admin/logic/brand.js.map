@@ -1,7 +1,7 @@
 {
     "version": 3,
     "sources": [
-        "../../../src/admin/logic/brand.js"
+        "..\\..\\..\\src\\admin\\logic\\brand.js"
     ],
     "names": [
         "module",
@@ -12,7 +12,7 @@
         "allowMethods"
     ],
     "mappings": "AAAAA,OAAOC,OAAP,GAAiB,cAAcC,MAAMC,KAApB,CAA0B;AACzCC,gBAAc;AACZ,SAAKC,YAAL,GAAoB,KAApB;AACD;AAHwC,CAA3C",
-    "file": "../../../src/admin/logic/brand.js",
+    "file": "..\\..\\..\\src\\admin\\logic\\brand.js",
     "sourcesContent": [
         "module.exports = class extends think.Logic {\r\n  indexAction() {\r\n    this.allowMethods = 'get';\r\n  }\r\n};\r\n"
     ]

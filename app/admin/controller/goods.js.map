@@ -1,7 +1,7 @@
 {
     "version": 3,
     "sources": [
-        "../../../src/admin/controller/goods.js"
+        "..\\..\\..\\src\\admin\\controller\\goods.js"
     ],
     "names": [
         "Base",
@@ -36,7 +36,7 @@
         "delete"
     ],
     "mappings": ";;AAAA,MAAMA,OAAOC,QAAQ,WAAR,CAAb;;AAEAC,OAAOC,OAAP,GAAiB,cAAcH,IAAd,CAAmB;AAClC;;;;AAIMI,aAAN,GAAoB;AAAA;;AAAA;AAClB,YAAMC,OAAO,MAAKC,GAAL,CAAS,MAAT,KAAoB,CAAjC;AACA,YAAMC,OAAO,MAAKD,GAAL,CAAS,MAAT,KAAoB,EAAjC;AACA,YAAME,OAAO,MAAKF,GAAL,CAAS,MAAT,KAAoB,EAAjC;;AAEA,YAAMG,QAAQ,MAAKA,KAAL,CAAW,OAAX,CAAd;AACA,YAAMC,OAAO,MAAMD,MAAME,KAAN,CAAY,EAACH,MAAM,CAAC,MAAD,EAAU,IAAGA,IAAK,GAAlB,CAAP,EAAZ,EAA2CI,KAA3C,CAAiD,CAAC,SAAD,CAAjD,EAA8DP,IAA9D,CAAmEA,IAAnE,EAAyEE,IAAzE,EAA+EM,WAA/E,EAAnB;;AAEA,aAAO,MAAKC,OAAL,CAAaJ,IAAb,CAAP;AARkB;AASnB;;AAEKK,YAAN,GAAmB;AAAA;;AAAA;AACjB,YAAMC,KAAK,OAAKV,GAAL,CAAS,IAAT,CAAX;AACA,YAAMG,QAAQ,OAAKA,KAAL,CAAW,OAAX,CAAd;AACA,YAAMC,OAAO,MAAMD,MAAME,KAAN,CAAY,EAACK,IAAIA,EAAL,EAAZ,EAAsBC,IAAtB,EAAnB;;AAEA,aAAO,OAAKH,OAAL,CAAaJ,IAAb,CAAP;AALiB;AAMlB;;AAEKQ,aAAN,GAAoB;AAAA;;AAAA;AAClB,UAAI,CAAC,OAAKC,MAAV,EAAkB;AAChB,eAAO,KAAP;AACD;;AAED,YAAMC,SAAS,OAAKC,IAAL,EAAf;AACA,YAAML,KAAK,OAAKK,IAAL,CAAU,IAAV,CAAX;;AAEA,YAAMZ,QAAQ,OAAKA,KAAL,CAAW,OAAX,CAAd;AACAW,aAAOE,UAAP,GAAoBF,OAAOE,UAAP,GAAoB,CAApB,GAAwB,CAA5C;AACAF,aAAOG,MAAP,GAAgBH,OAAOG,MAAP,GAAgB,CAAhB,GAAoB,CAApC;AACAH,aAAOI,MAAP,GAAgBJ,OAAOI,MAAP,GAAgB,CAAhB,GAAoB,CAApC;AACA,UAAIR,KAAK,CAAT,EAAY;AACV,cAAMP,MAAME,KAAN,CAAY,EAACK,IAAIA,EAAL,EAAZ,EAAsBS,MAAtB,CAA6BL,MAA7B,CAAN;AACD,OAFD,MAEO;AACL,eAAOA,OAAOJ,EAAd;AACA,cAAMP,MAAMiB,GAAN,CAAUN,MAAV,CAAN;AACD;AACD,aAAO,OAAKN,OAAL,CAAaM,MAAb,CAAP;AAlBkB;AAmBnB;;AAEKO,eAAN,GAAsB;AAAA;;AAAA;AACpB,YAAMX,KAAK,OAAKK,IAAL,CAAU,IAAV,CAAX;AACA,YAAM,OAAKZ,KAAL,CAAW,OAAX,EAAoBE,KAApB,CAA0B,EAACK,IAAIA,EAAL,EAA1B,EAAoCY,KAApC,CAA0C,CAA1C,EAA6CC,MAA7C,EAAN;AACA;;AAEA,aAAO,OAAKf,OAAL,EAAP;AALoB;AAMrB;AAnDiC,CAApC",
-    "file": "../../../src/admin/controller/goods.js",
+    "file": "..\\..\\..\\src\\admin\\controller\\goods.js",
     "sourcesContent": [
         "const Base = require('./base.js');\r\n\r\nmodule.exports = class extends Base {\r\n  /**\r\n   * index action\r\n   * @return {Promise} []\r\n   */\r\n  async indexAction() {\r\n    const page = this.get('page') || 1;\r\n    const size = this.get('size') || 10;\r\n    const name = this.get('name') || '';\r\n\r\n    const model = this.model('goods');\r\n    const data = await model.where({name: ['like', `%${name}%`]}).order(['id DESC']).page(page, size).countSelect();\r\n\r\n    return this.success(data);\r\n  }\r\n\r\n  async infoAction() {\r\n    const id = this.get('id');\r\n    const model = this.model('goods');\r\n    const data = await model.where({id: id}).find();\r\n\r\n    return this.success(data);\r\n  }\r\n\r\n  async storeAction() {\r\n    if (!this.isPost) {\r\n      return false;\r\n    }\r\n\r\n    const values = this.post();\r\n    const id = this.post('id');\r\n\r\n    const model = this.model('goods');\r\n    values.is_on_sale = values.is_on_sale ? 1 : 0;\r\n    values.is_new = values.is_new ? 1 : 0;\r\n    values.is_hot = values.is_hot ? 1 : 0;\r\n    if (id > 0) {\r\n      await model.where({id: id}).update(values);\r\n    } else {\r\n      delete values.id;\r\n      await model.add(values);\r\n    }\r\n    return this.success(values);\r\n  }\r\n\r\n  async destoryAction() {\r\n    const id = this.post('id');\r\n    await this.model('goods').where({id: id}).limit(1).delete();\r\n    // TODO 删除图片\r\n\r\n    return this.success();\r\n  }\r\n};\r\n"
     ]
