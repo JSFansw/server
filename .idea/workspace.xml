@@ -2,87 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5809ebf-b055-4f66-9dd3-84aaa1d28581" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change beforePath="$PROJECT_DIR$/app/admin/config/config.js.map" afterPath="$PROJECT_DIR$/app/admin/config/config.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/admin/controller/auth.js.map" afterPath="$PROJECT_DIR$/app/admin/controller/auth.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/admin/controller/base.js.map" afterPath="$PROJECT_DIR$/app/admin/controller/base.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/admin/controller/brand.js.map" afterPath="$PROJECT_DIR$/app/admin/controller/brand.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/admin/controller/category.js.map" afterPath="$PROJECT_DIR$/app/admin/controller/category.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/admin/controller/goods.js.map" afterPath="$PROJECT_DIR$/app/admin/controller/goods.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/admin/controller/index.js.map" afterPath="$PROJECT_DIR$/app/admin/controller/index.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/admin/controller/order.js.map" afterPath="$PROJECT_DIR$/app/admin/controller/order.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/admin/controller/topic.js.map" afterPath="$PROJECT_DIR$/app/admin/controller/topic.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/admin/controller/upload.js.map" afterPath="$PROJECT_DIR$/app/admin/controller/upload.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/admin/controller/user.js.map" afterPath="$PROJECT_DIR$/app/admin/controller/user.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/admin/logic/auth.js.map" afterPath="$PROJECT_DIR$/app/admin/logic/auth.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/admin/logic/brand.js.map" afterPath="$PROJECT_DIR$/app/admin/logic/brand.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/admin/logic/category.js.map" afterPath="$PROJECT_DIR$/app/admin/logic/category.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/admin/logic/goods.js.map" afterPath="$PROJECT_DIR$/app/admin/logic/goods.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/admin/logic/index.js.map" afterPath="$PROJECT_DIR$/app/admin/logic/index.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/admin/logic/order.js.map" afterPath="$PROJECT_DIR$/app/admin/logic/order.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/admin/logic/topic.js.map" afterPath="$PROJECT_DIR$/app/admin/logic/topic.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/admin/logic/upload.js.map" afterPath="$PROJECT_DIR$/app/admin/logic/upload.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/admin/logic/user.js.map" afterPath="$PROJECT_DIR$/app/admin/logic/user.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/admin/model/index.js.map" afterPath="$PROJECT_DIR$/app/admin/model/index.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/admin/model/order.js.map" afterPath="$PROJECT_DIR$/app/admin/model/order.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/admin/service/token.js.map" afterPath="$PROJECT_DIR$/app/admin/service/token.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/config/config.js.map" afterPath="$PROJECT_DIR$/app/api/config/config.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/controller/address.js.map" afterPath="$PROJECT_DIR$/app/api/controller/address.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/controller/auth.js.map" afterPath="$PROJECT_DIR$/app/api/controller/auth.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/controller/base.js.map" afterPath="$PROJECT_DIR$/app/api/controller/base.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/controller/brand.js.map" afterPath="$PROJECT_DIR$/app/api/controller/brand.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/controller/cart.js.map" afterPath="$PROJECT_DIR$/app/api/controller/cart.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/controller/catalog.js.map" afterPath="$PROJECT_DIR$/app/api/controller/catalog.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/controller/collect.js.map" afterPath="$PROJECT_DIR$/app/api/controller/collect.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/controller/comment.js.map" afterPath="$PROJECT_DIR$/app/api/controller/comment.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/controller/footprint.js.map" afterPath="$PROJECT_DIR$/app/api/controller/footprint.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/controller/goods.js.map" afterPath="$PROJECT_DIR$/app/api/controller/goods.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/controller/index.js.map" afterPath="$PROJECT_DIR$/app/api/controller/index.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/controller/order.js.map" afterPath="$PROJECT_DIR$/app/api/controller/order.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/controller/pay.js.map" afterPath="$PROJECT_DIR$/app/api/controller/pay.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/controller/region.js.map" afterPath="$PROJECT_DIR$/app/api/controller/region.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/controller/search.js.map" afterPath="$PROJECT_DIR$/app/api/controller/search.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/controller/topic.js.map" afterPath="$PROJECT_DIR$/app/api/controller/topic.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/controller/user.js.map" afterPath="$PROJECT_DIR$/app/api/controller/user.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/logic/address.js.map" afterPath="$PROJECT_DIR$/app/api/logic/address.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/logic/auth.js.map" afterPath="$PROJECT_DIR$/app/api/logic/auth.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/logic/brand.js.map" afterPath="$PROJECT_DIR$/app/api/logic/brand.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/logic/cart.js.map" afterPath="$PROJECT_DIR$/app/api/logic/cart.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/logic/catalog.js.map" afterPath="$PROJECT_DIR$/app/api/logic/catalog.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/logic/collect.js.map" afterPath="$PROJECT_DIR$/app/api/logic/collect.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/logic/comment.js.map" afterPath="$PROJECT_DIR$/app/api/logic/comment.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/logic/footprint.js.map" afterPath="$PROJECT_DIR$/app/api/logic/footprint.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/logic/goods.js.map" afterPath="$PROJECT_DIR$/app/api/logic/goods.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/logic/index.js.map" afterPath="$PROJECT_DIR$/app/api/logic/index.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/logic/order.js.map" afterPath="$PROJECT_DIR$/app/api/logic/order.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/logic/pay.js.map" afterPath="$PROJECT_DIR$/app/api/logic/pay.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/logic/region.js.map" afterPath="$PROJECT_DIR$/app/api/logic/region.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/logic/search.js.map" afterPath="$PROJECT_DIR$/app/api/logic/search.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/logic/topic.js.map" afterPath="$PROJECT_DIR$/app/api/logic/topic.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/logic/user.js.map" afterPath="$PROJECT_DIR$/app/api/logic/user.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/model/cart.js.map" afterPath="$PROJECT_DIR$/app/api/model/cart.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/model/category.js.map" afterPath="$PROJECT_DIR$/app/api/model/category.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/model/collect.js.map" afterPath="$PROJECT_DIR$/app/api/model/collect.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/model/footprint.js.map" afterPath="$PROJECT_DIR$/app/api/model/footprint.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/model/goods.js.map" afterPath="$PROJECT_DIR$/app/api/model/goods.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/model/order.js.map" afterPath="$PROJECT_DIR$/app/api/model/order.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/model/order_express.js.map" afterPath="$PROJECT_DIR$/app/api/model/order_express.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/model/region.js.map" afterPath="$PROJECT_DIR$/app/api/model/region.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/model/shipper.js.map" afterPath="$PROJECT_DIR$/app/api/model/shipper.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/service/express.js.map" afterPath="$PROJECT_DIR$/app/api/service/express.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/service/token.js.map" afterPath="$PROJECT_DIR$/app/api/service/token.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/api/service/weixin.js.map" afterPath="$PROJECT_DIR$/app/api/service/weixin.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/common/bootstrap/master.js.map" afterPath="$PROJECT_DIR$/app/common/bootstrap/master.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/common/bootstrap/worker.js.map" afterPath="$PROJECT_DIR$/app/common/bootstrap/worker.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/common/config/adapter.js.map" afterPath="$PROJECT_DIR$/app/common/config/adapter.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/common/config/config.js.map" afterPath="$PROJECT_DIR$/app/common/config/config.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/common/config/config.production.js.map" afterPath="$PROJECT_DIR$/app/common/config/config.production.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/common/config/database.js.map" afterPath="$PROJECT_DIR$/app/common/config/database.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/common/config/extend.js.map" afterPath="$PROJECT_DIR$/app/common/config/extend.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/common/config/middleware.js.map" afterPath="$PROJECT_DIR$/app/common/config/middleware.js.map" />
-      <change beforePath="$PROJECT_DIR$/app/common/config/router.js.map" afterPath="$PROJECT_DIR$/app/common/config/router.js.map" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -95,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/api/config/config.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -119,7 +39,7 @@
       <file leaf-file-name="adapter.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/common/config/adapter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-871">
+            <state relative-caret-position="230">
               <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
               <folding />
             </state>
@@ -136,11 +56,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.production.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.production.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/common/config/config.production.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="92">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/api/controller/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -150,11 +80,17 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/common/config/config.production.js" />
+        <option value="$PROJECT_DIR$/src/api/controller/index.js" />
       </list>
     </option>
   </component>
@@ -170,8 +106,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="210" />
-    <option name="y" value="79" />
+    <option name="x" value="206" />
+    <option name="y" value="142" />
     <option name="width" value="1017" />
     <option name="height" value="688" />
   </component>
@@ -191,6 +127,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,46 +144,19 @@
               <item name="server" type="b2602c69:ProjectViewProjectNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="server" type="b2602c69:ProjectViewProjectNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="avatar" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -284,33 +194,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523951619512</updated>
-      <workItem from="1523951621051" duration="379000" />
+      <workItem from="1523951621051" duration="673000" />
+      <workItem from="1523952316968" duration="1761000" />
+      <workItem from="1524021055130" duration="70000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="379000" />
+    <option name="totallyTimeSpent" value="2504000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18215613" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14052045" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.018003274" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15100671" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -333,6 +245,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/config/adapter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/config/database.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/config/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/config/config.production.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/controller/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/config/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/common/config/database.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -343,7 +303,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/config/adapter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-871">
+        <state relative-caret-position="230">
           <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
           <folding />
         </state>
@@ -360,7 +320,63 @@
     <entry file="file://$PROJECT_DIR$/src/common/config/config.production.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/controller/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/config/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/config/database.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/config/adapter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/config/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/config/config.production.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/controller/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
