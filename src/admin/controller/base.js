@@ -6,10 +6,11 @@ module.exports = class extends think.Controller {
     think.userId = await tokenSerivce.getUserId();
 
     // 只允许登录操作
-    if (this.ctx.controller !== 'auth') {
-      if (think.userId <= 0) {
-        return this.fail(401, '请先登录');
-      }
-    }
+    // if (this.ctx.controller !== 'auth') {
+    //   if (think.userId <= 0) {
+    //     return this.fail(401, '请先登录');
+    //   }
+    // }
+    
   }
 };

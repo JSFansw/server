@@ -6,16 +6,38 @@ module.exports = class extends Base {
    * @return {Promise} []
    */
   async indexAction() {
-    const page = this.get('page') || 1;
-    const size = this.get('size') || 10;
+    const page = this.get('currentPage') || 1;
+    const size = this.get('limit') || 10;
     const name = this.get('name') || '';
 
     const model = this.model('goods');
-    const data = await model.where({name: ['like', `%${name}%`]}).order(['id DESC']).page(page, size).countSelect();
+    const data = await model.where({name: ['like', `%${name}%`]}).page(page, size).countSelect();
 
     return this.success(data);
   }
-
+    
+    /**
+     * 返回所有数据
+     * @returns {Promise<void>}
+     */
+  async listAction(){
+    const model= this.model('goods');
+    const data = await model.select();
+    return this.success(data);
+  }
+    
+    /**
+     * 获取产品格式
+     * @returns {Promise<*|boolean>}
+     */
+  async countAction(){
+    const data = await this.model('goods').count();
+    return this.success(data);
+  }
+    /**
+     *
+     * @returns {Promise<*|boolean>}
+     */
   async infoAction() {
     const id = this.get('id');
     const model = this.model('goods');

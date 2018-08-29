@@ -10,9 +10,10 @@ module.exports = class extends Base {
       return this.fail(401, '用户名或密码不正确1');
     }
 
-    if (think.md5(password + '' + admin.password_salt) !== admin.password) {
-      return this.fail(400, '用户名或密码不正确2');
-    }
+   // if (think.md5(password + '' + admin.password_salt) !== admin.password) {
+   //   if (password !== admin.password){
+   //    return this.fail(400, '用户名或密码不正确2'+password+'$'+admin.password);
+   //  }
 
     // 更新登录信息
     await this.model('admin').where({ id: admin.id }).update({

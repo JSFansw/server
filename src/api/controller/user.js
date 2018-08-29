@@ -8,6 +8,15 @@ module.exports = class extends Base {
     delete userInfo.password;
     return this.json(userInfo);
   }
+    
+    /**
+     * 返回用戶列表
+     * @returns {Promise<*|boolean>}
+     */
+    async indexAction(){
+      const userInfo=await this.model('user').find();
+      return this.json(userInfo);
+    }
 
   /**
    * 保存用户头像

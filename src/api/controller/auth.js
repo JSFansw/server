@@ -45,7 +45,7 @@ module.exports = class extends Base {
     if (think.isEmpty(userId)) {
       // 注册
       userId = await this.model('user').add({
-        username: '微信用户' + think.uuid(6),
+        username: 'wechat' + think.uuid(6),
         password: sessionData.openid,
         register_time: parseInt(new Date().getTime() / 1000),
         register_ip: clientIp,
