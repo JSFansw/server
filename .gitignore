@@ -47,6 +47,7 @@ Temporary Items
 .apdisk
 
 *.map
+app
 runtime
 node_modules
 .idea
