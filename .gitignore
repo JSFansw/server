@@ -46,8 +46,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-.map
-app
+*.map
 runtime
 node_modules
 .idea
