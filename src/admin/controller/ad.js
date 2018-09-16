@@ -28,10 +28,8 @@ module.exports = class extends Base{
         if (!this.isPost) {
             return this.fail(1001,'请使用post请求提交数据');
         }
-    
         const values = this.post();
         const id = this.post('id');
-    
         const model = this.model('ad');
         //values.is_show = values.is_show ? 1 : 0;
         //values.is_new = values.is_new ? 1 : 0;

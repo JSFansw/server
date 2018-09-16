@@ -18,8 +18,8 @@ module.exports = [
     handle: 'resource',
     enable: isDev,
     options: {
-      root: path.join(think.ROOT_PATH, 'www\/static'),
-      publicPath: /^\/(img|favicon\.ico)/
+      root: path.join(think.ROOT_PATH, 'www'),
+      publicPath: /^\/(static|favicon\.ico)/
     }
   },
   {

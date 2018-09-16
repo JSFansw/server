@@ -51,3 +51,4 @@ app
 runtime
 node_modules
 .idea
+*.jpg

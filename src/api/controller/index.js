@@ -3,7 +3,8 @@ const Base = require('./base.js');
 module.exports = class extends Base {
   async indexAction() {
     //首页滚动条广告，ad_posiotion_id=1的banner是放在首页轮播的
-    const banner = await this.model('ad').where({ad_position_id: 1, enabled:1}).select();
+    //const banner = await this.model('ad').where({ad_position_id: 1, enabled:1}).select();
+    const banner = await this.model('ad').where({enabled:1}).select();
     //频道
     const channel = await this.model('channel').order({sort_order: 'asc'}).select();
     //新鲜首发

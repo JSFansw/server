@@ -55,27 +55,27 @@ module.exports = class extends Base {
     });
   }
     
-    async topicThumbAction() {
-        const imageFile = this.file('scene_pic_url');
-        if (think.isEmpty(imageFile)) {
-            return this.fail('保存失败');
-        }
-        const that = this;
-        const filename = '/static/upload/topic/' + think.uuid(32) + '.jpg';
-        
-        const is = fs.createReadStream(imageFile.path);
-        const os = fs.createWriteStream(think.ROOT_PATH + '/www' + filename);
-        is.pipe(os);
-        //os.write()
-        
-        return that.success({
-            name: 'scene_pic_url',
-            fileUrl: 'http://127.0.0.1:8360' + filename
-        });
+async topicThumbAction() {
+    const imageFile = this.file('scene_pic_url');
+    if (think.isEmpty(imageFile)) {
+        return this.fail('保存失败');
     }
+    const that = this;
+    const filename = '/upload/topic/' + think.uuid(32) + '.jpg';
+    
+    const is = fs.createReadStream(imageFile.path);
+    const os = fs.createWriteStream(think.ROOT_PATH + '/www/static' + filename);
+    is.pipe(os);
+    //os.write()
+    
+    return that.success({
+        name: 'scene_pic_url',
+        fileUrl: 'http://127.0.0.1:8360' + filename
+    });
+}
     
     /**
-     *
+     * 保存广告图片
      * @returns {Promise<*>}
      */
   async adAction(){
@@ -84,15 +84,14 @@ module.exports = class extends Base {
           return this.fail('图片上传失败');
       }
       const that = this;
-      const filename = '/static/upload/ad/' + think.uuid(32) + '.jpg';
+      const filename = 'upload/ad/' + think.uuid(32) + '.jpg';
       console.log(filename);
       console.log(imageFile.path);
       const is = fs.createReadStream(imageFile.path);
-      const os = fs.createWriteStream(think.ROOT_PATH + '/www' + filename);
+      const os = fs.createWriteStream(think.ROOT_PATH + '/www/static/' + filename);
       is.pipe(os);
-    
       return that.success({
-          image_url: 'http://127.0.0.1:8360' + filename
+          image_url: filename
       });
   }
     async getPathAction(req) {
